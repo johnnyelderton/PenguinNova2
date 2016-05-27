@@ -53,13 +53,24 @@
         />
 
     <Button
+        android:id="@+id/achieveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:text="Achievements"
+        android:textSize="20sp"
+        android:layout_below="@id/scoreButton"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
         android:id="@+id/optionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/buttonshape"
         android:text="Options"
         android:textSize="20sp"
-        android:layout_below="@id/scoreButton"
+        android:layout_below="@id/achieveButton"
         android:layout_centerHorizontal="true"
         />
 

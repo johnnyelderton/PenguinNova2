@@ -7,6 +7,7 @@
     android:background="@drawable/spacenew">
 
     <TextView
+        android:id="@+id/TitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Penguin Nova\nRemastered"
@@ -15,5 +16,51 @@
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
         />
+
+    <Button
+        android:id="@+id/gameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:text="Start Game"
+        android:textSize="20sp"
+        android:layout_below="@id/TitleText"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/customButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:text="Customization"
+        android:textSize="20sp"
+        android:layout_below="@id/gameButton"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/scoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:text="Game Scores"
+        android:textSize="20sp"
+        android:layout_below="@id/customButton"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/optionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:text="Options"
+        android:textSize="20sp"
+        android:layout_below="@id/scoreButton"
+        android:layout_centerHorizontal="true"
+        />
+
 </RelativeLayout>
